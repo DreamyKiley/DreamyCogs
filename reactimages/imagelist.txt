@@ -1,0 +1,615 @@
+angry-images {
+	https://media.tenor.com/TtXuoquA1r8AAAAi/furry-yell.gif
+	https://media.tenor.com/o-g-iQ_7Q-UAAAAi/ghosttwf-angy.gif
+	https://media1.tenor.com/m/N8EtjGRm_90AAAAC/vyx-furry.gif
+	https://media.tenor.com/I52W87bM7K8AAAAi/anime-aaaa.gif
+	https://media1.tenor.com/m/cYRAeQqpaUMAAAAC/anime-angry-slow-loop.gif
+	https://media1.tenor.com/m/sy9rSYqF3v8AAAAC/colere.gif
+	https://media.tenor.com/5ExGc8sRRAYAAAAi/mythikore-anime-girl.gif
+	https://media1.tenor.com/m/Q_SHYUU4NccAAAAC/anime-evil.gif
+	https://media1.tenor.com/m/Lz2K6kD5Z9MAAAAC/nagatoro-angry.gif
+	https://media1.tenor.com/m/lBlcEFqoDnEAAAAC/annoyed-anime.gif
+}
+
+sad-images {
+	https://media1.tenor.com/m/jotyiHEoUGUAAAAC/anime.gif
+	https://media1.tenor.com/m/YseiXI4o5bsAAAAC/sad-pout.gif
+	https://media1.tenor.com/m/ZgbfJDDS9yQAAAAC/anime-depressed.gif
+	https://media1.tenor.com/m/cZAW8f5L1O0AAAAC/sad-anime.gif
+	https://media1.tenor.com/m/2cVmIkey2V8AAAAd/pokemon-pikachu.gif
+	https://media1.tenor.com/m/6OayBOo0di8AAAAC/anime-abood.gif
+	https://media.tenor.com/YH-ikCHh79MAAAAi/foxxo-cry.gif
+	https://media1.tenor.com/m/kJoX6fgmzBYAAAAd/furry-furryfandom.gif
+	https://media1.tenor.com/m/s3aI1DEXZrAAAAAC/sad-furry.gif
+}
+
+hug-images {
+	https://media.tenor.com/9lRjN-Sr204AAAAi/anime-anime-hug.gif
+	https://media1.tenor.com/m/kCZjTqCKiggAAAAC/hug.gif
+	https://media1.tenor.com/m/7oCaSR-q1kkAAAAC/alice-vt.gif
+	https://media1.tenor.com/m/AO-1yttBeH8AAAAC/anime-hug.gif
+	https://media1.tenor.com/m/rTKIBe2qtxsAAAAC/anime-couples.gif
+	https://media.tenor.com/BXYLVIdsP8kAAAAi/coco.gif
+	https://media1.tenor.com/m/4BjxInu7fa4AAAAC/furry.gif
+	https://media1.tenor.com/m/OrJiTqPixtYAAAAC/hugs-love.gif
+	https://media.tenor.com/DWDYnESB0rsAAAAi/fox.gif
+	https://media1.tenor.com/m/SGXZrwT4KjcAAAAC/kiss.gif
+	https://media1.tenor.com/m/hZEYi1oLHPsAAAAC/cute-animals-in-love.gif
+}
+
+cuddle-images {
+	https://media1.tenor.com/m/c2SMIhi33DMAAAAC/cuddle-bed-hug.gif
+	https://media1.tenor.com/m/JusdVlKJLbsAAAAC/cute-anime.gif
+	https://media1.tenor.com/m/jAycgzTbAWwAAAAC/cuddle.gif
+	https://media1.tenor.com/m/bLttPccI_I4AAAAC/cuddle-anime.gif
+	https://media1.tenor.com/m/hacbVpDut3sAAAAC/hug.gif
+	https://media1.tenor.com/m/MVK93pHLpz4AAAAC/anime-hug-anime.gif
+	https://media1.tenor.com/m/LEJdSFuAe-UAAAAC/pokemon-cuddle.gif
+	https://media1.tenor.com/m/tFjx-XJaNOAAAAAd/furry.gif
+}
+
+kiss-images {
+	https://media1.tenor.com/m/OByUsNZJyWcAAAAC/emre-ada.gif
+	https://media1.tenor.com/m/ye6xtORyw_8AAAAC/2.gif
+	https://media1.tenor.com/m/g8AeFZoe7dsAAAAC/kiss-anime-kiss.gif
+	https://media1.tenor.com/m/b7DWF8ecBkIAAAAC/kiss-anime-anime.gif
+	https://media1.tenor.com/m/NZUQilMD3IIAAAAd/horimiya-izumi-miyamura.gif
+	https://media1.tenor.com/m/1SBrq4NinsEAAAAC/yoshikazu-kisses-kiyone-on-her-cheeks.gif
+	https://media1.tenor.com/m/Gv38EiXASmoAAAAC/frieren-sousou-no-frieren.gif
+	https://media1.tenor.com/m/L-NTpww8HTUAAAAC/kiss-anime-anime-kiss.gif
+	https://media1.tenor.com/m/vtOmnXkckscAAAAC/kiss.gif
+	https://media.tenor.com/fp95MOGA4fIAAAAi/kiss-furry.gif
+	https://media1.tenor.com/m/IOhsdpwBTKEAAAAC/proto-protogen.gif
+	https://media1.tenor.com/m/YSOi4XmeiHMAAAAC/cute-couples.gif
+	https://media1.tenor.com/m/w787mSDFMCcAAAAC/kiss-kisses.gif
+	https://media1.tenor.com/m/yQij1WWOLtkAAAAC/anime-kiss-no-lick.gif
+}
+
+poke-images {
+	https://media1.tenor.com/m/iu_Lnd86GxAAAAAC/nekone-utawarerumono.gif
+	https://media1.tenor.com/m/HPlp78w2otYAAAAC/poke-anime.gif
+	https://media1.tenor.com/m/7iV_gBGrRAUAAAAC/boop-poke.gif
+	https://media1.tenor.com/m/88HZjGgr3k0AAAAd/doggo-boop.gif
+	https://media1.tenor.com/m/Ur9uVvSUd1oAAAAC/boop-rascal-does-not-dream-of-bunny-girl-senpai.gif
+	https://media1.tenor.com/m/vu1AUXE8wtsAAAAd/anime-sleep.gif
+	https://media1.tenor.com/m/0wPms8tS0eoAAAAC/boop-poke.gif
+}
+
+slap-images {
+	https://media1.tenor.com/m/Sv8LQZAoQmgAAAAC/chainsaw-man-csm.gif
+	https://media1.tenor.com/m/eU5H6GbVjrcAAAAC/slap-jjk.gif
+	https://media1.tenor.com/m/Ws6Dm1ZW_vMAAAAC/girl-slap.gif
+	https://media1.tenor.com/m/8bSm0lI4_FUAAAAC/yuuri.gif
+	https://media1.tenor.com/m/HTHoXnBc400AAAAd/in-your-face-slap.gif
+	https://media1.tenor.com/m/XiYuU9h44-AAAAAC/anime-slap-mad.gif
+	https://media1.tenor.com/m/cpWuWnOU64MAAAAC/bofetada.gif
+	https://media1.tenor.com/m/UDo0WPttiRsAAAAd/bunny-girl-slap.gif
+	https://media1.tenor.com/m/2-r7BEc-cb8AAAAC/slap-smack.gif
+	https://media1.tenor.com/m/MrhME3n9Z2UAAAAC/dungeong.gif
+}
+
+pat-images {
+	https://media1.tenor.com/m/ufs11bnfgYsAAAAC/anime-cute.gif
+	https://media1.tenor.com/m/-hkJYNs7tUkAAAAC/anime-pat.gif
+	https://media1.tenor.com/m/wLqFGYigJuIAAAAC/mai-sakurajima.gif
+	https://media1.tenor.com/m/n6M5-pM2RiQAAAAC/anime-cry.gif
+	https://media1.tenor.com/m/xvwMZvxTQAQAAAAC/pat.gif
+	https://media1.tenor.com/m/mecnd_qE8p8AAAAd/anime-pat.gif
+	https://media1.tenor.com/m/079CvbmFPe8AAAAC/qualidea-code-head-pat.gif
+	https://media1.tenor.com/m/OvrmH29V-44AAAAC/pat.gif
+	https://media1.tenor.com/m/sxoZANeqrT0AAAAC/headpats-anime.gif
+	https://media1.tenor.com/m/EtYDQ2XfXAQAAAAC/headpat-anime-kuromi-serika.gif
+	https://media1.tenor.com/m/-jJlxJOR2yIAAAAC/moose-protogen.gif
+	https://media1.tenor.com/m/4Rl6Z7MbFBAAAAAC/loona-helluva-boss.gif
+	https://media1.tenor.com/m/y1DRoMG7ClIAAAAd/fox-headpats.gif
+	https://media.tenor.com/kpDuyu734GMAAAAi/dakooters-dkooters.gif
+}
+
+smug-images {
+	https://media1.tenor.com/m/LzUPgX7KmzsAAAAC/anime-smirk.gif
+	https://media1.tenor.com/m/Zpt8lzrb5bgAAAAC/futakana-smug-anime.gif
+	https://media1.tenor.com/m/E7qBgAqGTWsAAAAC/smug-anime.gif
+	https://media1.tenor.com/m/dc4d5he-8XQAAAAC/keara-chan-smug.gif
+	https://media1.tenor.com/m/MQ610z61FU4AAAAd/chika-love-is-war.gif
+	https://media1.tenor.com/m/_irU8oUff_IAAAAC/anya-anya-forger.gif
+	https://media1.tenor.com/m/7lXpuCpDObwAAAAC/gintama-smug.gif
+	https://media1.tenor.com/m/amMMuaTS1bsAAAAC/mutsumi-mutsumi-yozakura.gif
+	https://media1.tenor.com/m/oBoRg7uIk98AAAAC/bocchi-bocchi-the-rock.gif
+	https://media1.tenor.com/m/SidBVDAYFkIAAAAC/smug-maki.gif
+	https://media1.tenor.com/m/6w0LdfZ67O0AAAAC/anime-smirk.gif
+	https://media1.tenor.com/m/_CnTYao_DCwAAAAC/anime.gif
+	https://media1.tenor.com/m/9UpA3ebS6gkAAAAC/furry.gif
+}
+
+lick-images {
+	https://media1.tenor.com/m/hBwkISiqNI0AAAAC/shura-hiwa-lamer.gif
+	https://media1.tenor.com/m/ps7jDcUG53MAAAAC/blue-archive-arona.gif
+	https://media.tenor.com/AVDCCYv7bi4AAAAi/amamii-mimii.gif
+	https://media1.tenor.com/m/y8ZX_kwwTiUAAAAC/starving-hungry.gif
+	https://media1.tenor.com/m/OlzH7_NG640AAAAC/anime-girl.gif
+	https://media.tenor.com/q4MtOCq9a3YAAAAi/skadi-lick-arknights.gif
+	https://media1.tenor.com/m/ly1xD4QkTb0AAAAC/tohru-tongue.gif
+	https://media1.tenor.com/m/mkRrrZM42vsAAAAC/capoo-bugcat.gif
+	https://media1.tenor.com/m/Go7wnhOWjSkAAAAC/anime-lick-face.gif
+	https://media1.tenor.com/m/WRl_pMfhC4UAAAAC/furry-pawpsicle.gif
+	https://media1.tenor.com/m/Vv80woFIw30AAAAd/furry-vrchat.gif
+	https://media1.tenor.com/m/wNfnH4YfWUkAAAAC/wolf-kisses-lick.gif
+	https://media1.tenor.com/m/qIdBd4Kj7EUAAAAC/furry-furry-meme.gif
+}
+
+
+cry-images {
+	https://media1.tenor.com/m/jotyiHEoUGUAAAAC/anime.gif
+	https://media1.tenor.com/m/35S_M89zT3sAAAAC/horimiya-anime.gif
+	https://media1.tenor.com/m/0qj0aqZ0nucAAAAC/anya-spy-x-family-anime-anya-crying.gif
+	https://media1.tenor.com/m/EhwgANzgzdIAAAAC/anime-cry.gif
+	https://media.tenor.com/9jU-CvLRXcoAAAAi/cute-anime-crying.gif
+	https://media.tenor.com/usAx4sFHmRwAAAAi/chibi-yhad.gif
+	https://media1.tenor.com/m/VTIoZo81CS8AAAAC/momonosuke-crying.gif
+	https://media1.tenor.com/m/Mlgi6bkVkG8AAAAC/emotional-cry.gif
+	https://media1.tenor.com/m/EiY1tgZOtQUAAAAC/anime-crying.gif
+	https://media1.tenor.com/m/A0g9Rrx4aNsAAAAC/sad-angry.gif
+	https://media1.tenor.com/m/n6s0kfQgF6oAAAAC/pika-sad.gif
+	https://media.tenor.com/E1oDJWsErekAAAAi/cute.gif
+	https://media.tenor.com/p-tsA5hdz2cAAAAi/crying-cute-anime.gif
+	https://media1.tenor.com/m/Xjlpc24tXioAAAAC/kitagawa-tears.gif
+	https://media1.tenor.com/m/i1CXRvV_jJUAAAAC/fox-cry.gif
+}
+
+sleep-images {
+	https://media1.tenor.com/m/d9AcU5UmEdoAAAAC/anime-fran.gif
+	https://media1.tenor.com/m/Cj0YvuE94eoAAAAC/onimai-anime-sleep.gif
+	https://media.tenor.com/IatpWKWrjdsAAAAi/piplup-sleepers.gif
+	https://media1.tenor.com/m/GOEO_QhhtlYAAAAd/go-to-sleep-anime.gif
+	https://media1.tenor.com/m/1XDMHAv5HcQAAAAC/anime-sleep.gif
+	https://media1.tenor.com/m/Y4T8LK9NPY8AAAAC/fabiniku-anime-sleep.gif
+	https://media1.tenor.com/m/GuHHnDT6quYAAAAd/anime-couples.gif
+	https://media1.tenor.com/m/lxkD_O1p7KsAAAAC/yuru-camp.gif
+	https://media1.tenor.com/m/loxKOnJ54Q8AAAAC/anime-good-night.gif
+	https://media.tenor.com/492-Kwhg88sAAAAi/menhera-chan.gif
+	https://media1.tenor.com/m/N7FBq595kr0AAAAC/anime-cat.gif
+	https://media1.tenor.com/m/lc_ZdiRuc-4AAAAC/yawn-anime.gif
+	https://media1.tenor.com/m/5sXV06hrR2YAAAAC/protogen-sleep.gif
+	https://media1.tenor.com/m/qPwOpSni6hgAAAAC/evee-pokemon.gif
+}
+
+spank-images {
+	https://media1.tenor.com/m/7BG6hzxWKBgAAAAC/anime-anime86.gif
+	https://media1.tenor.com/m/sdSmiixaAj0AAAAC/anime-anime-girl.gif
+	https://media1.tenor.com/m/Sp7yE5UzqFMAAAAC/spank-slap.gif
+	https://media1.tenor.com/m/5SPNhg5O38oAAAAd/anime-rikka-takanashi.gif
+}
+
+pout-images {
+	https://media1.tenor.com/m/GF3gAxfRPOsAAAAC/anime-girl-meh.gif
+	https://media1.tenor.com/m/T2bmIzHnkJwAAAAd/shikimori-shikimoris-not-just-a-cutie.gif
+	https://media1.tenor.com/m/yCR6JOoxS6wAAAAd/anime-angry.gif
+	https://media1.tenor.com/m/_22_7mYKy5EAAAAC/bocchi-bocchi-the-rock.gif
+	https://media1.tenor.com/m/hR8XdCeC2psAAAAC/cute-pouting.gif
+	https://media1.tenor.com/m/iNu8LXx2ECgAAAAC/senko-poute-hmph.gif
+	https://media1.tenor.com/m/A70scThth6MAAAAC/angry-pouting.gif
+	https://media1.tenor.com/m/3EgO4ozQzp4AAAAC/anime-raphtalia.gif
+	https://media1.tenor.com/m/bqdATAYxLd4AAAAC/senpai-hachioji-naoto.gif
+	https://media1.tenor.com/m/fZcvT9ZwzEMAAAAC/pouting-anime-girl.gif
+	https://media1.tenor.com/m/vORI9e-AqoUAAAAC/menhera-chan-chibi.gif
+	https://media1.tenor.com/m/MH-k-cCCirwAAAAC/vtuber-foxplushy.gif
+}
+
+blush-images {
+	https://media1.tenor.com/m/Zk1ugYUMh4wAAAAC/idk.gif
+	https://media1.tenor.com/m/ia9ZGb4SMWcAAAAC/anime-blush-blush.gif
+	https://media1.tenor.com/m/r5CFoxv1UCIAAAAC/my-dress-up-darling-anime-girl-blushing.gif
+	https://media1.tenor.com/m/QSsvXdS3-3QAAAAC/anime-boy-anime.gif
+	https://media1.tenor.com/m/IYmxEveyRNsAAAAC/anime-blush.gif
+	https://media1.tenor.com/m/sXv8LmKckugAAAAC/real.gif
+	https://media1.tenor.com/m/u1RaweQYumcAAAAC/anime-blushing.gif
+	https://media1.tenor.com/m/TXrS7MdbqDgAAAAC/1.gif
+	https://media1.tenor.com/m/8ew0FRHndk4AAAAd/sasaki-to-miyano-sasaki-and-miyano.gif
+	https://media1.tenor.com/m/0aX8aRI1qCEAAAAC/100-girlfriends-hyakkano.gif
+	https://media1.tenor.com/m/73k5d_LqL2IAAAAC/blushing-anime-anime-girl.gif
+	https://media1.tenor.com/m/UKA-YR4eeW0AAAAC/juvia-juvia-lockser.gif
+	https://media1.tenor.com/m/WsuX8fkjROQAAAAC/blushing-anime-girl.gif
+	https://media1.tenor.com/m/suNvMh-FyuYAAAAC/my-tiny-senpai-shiori-katase.gif
+	https://media1.tenor.com/m/uqmvkg7EWZoAAAAd/my-tiny-senpai-shiori-katase.gif
+	https://media1.tenor.com/m/7Fws0Ihos1YAAAAC/cute-furry.gif
+	https://media1.tenor.com/m/L2ou4PJE70cAAAAC/furry-helluva-boss.gif
+	https://media1.tenor.com/m/A1r0gNMpfHYAAAAC/furry-blush.gif
+}
+
+punch-images {
+	https://media1.tenor.com/m/BoYBoopIkBcAAAAC/anime-smash.gif
+	https://media1.tenor.com/m/qDDsivB4UEkAAAAC/anime-fight.gif
+	https://media1.tenor.com/m/p_mMicg1pgUAAAAC/anya-forger-damian-spy-x-family.gif
+	https://media1.tenor.com/m/Kbit6lroRFUAAAAC/one-punch-man-saitama.gif
+	https://media1.tenor.com/m/hu9e3k1zr0IAAAAC/pjsk-pjsk-anime.gif
+	https://media1.tenor.com/m/yA_KtmPI1EMAAAAd/hxh-hunter-x-hunter.gif
+	https://media1.tenor.com/m/XMUeFPvfNvkAAAAC/punch-punching.gif
+	https://media1.tenor.com/m/D4D8Xj2rqzoAAAAC/anime-punch.gif
+	https://media1.tenor.com/m/Ktd3wl6JEEMAAAAC/punch-anime-girl-punch.gif
+	https://media1.tenor.com/m/pHCT4ynbGIUAAAAC/anime-girl.gif
+	https://media1.tenor.com/m/RbXLO4g2FxYAAAAd/tomtomgil-hitwall.gif
+	https://media1.tenor.com/m/lWmjgII6fcgAAAAd/saki-saki-mukai-naoya.gif
+}
+
+highfive-images {
+	https://media1.tenor.com/m/JBBZ9mQntx8AAAAC/anime-high-five.gif
+	https://media1.tenor.com/m/yCNsaEbq9dgAAAAd/kirito-anime.gif
+	https://media1.tenor.com/m/zuGJiqsnkPIAAAAC/eevee-pikachu.gif
+	https://media1.tenor.com/m/rU9PEKyn4BsAAAAC/fairy-tail-nalu.gif
+	https://media1.tenor.com/m/EZ1vAcsB_HQAAAAd/isagi-yoichi-nagi-seishiro.gif
+	https://media1.tenor.com/m/OjxdWucxp04AAAAC/ascendance-of-a-bookworm-honzuki-no-gekokujou.gif
+	https://media1.tenor.com/m/1SKzPjLVtrIAAAAC/friends-high5.gif
+	https://media1.tenor.com/m/i3wzYOB5XysAAAAC/yes-high-five.gif
+	https://media1.tenor.com/m/VaOkUsy8UjMAAAAC/hi-five-high-five.gif
+	https://media1.tenor.com/m/P8OC1a6PnzYAAAAC/love-live-nijigasaki.gif
+	https://media1.tenor.com/m/xkYxi4WFTiMAAAAC/bandori-bangdream.gif
+}
+
+plead-images {
+	https://media1.tenor.com/m/9lme5UGlRWQAAAAd/beg-anime.gif
+	https://media1.tenor.com/m/4q5OwnFZJdEAAAAC/adorable-pleading.gif
+	https://media1.tenor.com/m/H_UMDwUuc4kAAAAC/bungo-stray-dogs-osamu-dazai.gif
+	https://media1.tenor.com/m/FBKW80Hyq2kAAAAC/yumi-fox.gif
+	https://media1.tenor.com/m/Y9g7q5u4W8IAAAAC/girl-please.gif
+	https://media1.tenor.com/m/SZc68rHjyEYAAAAC/kyoukai-no-kanata-sorry.gif
+	https://media1.tenor.com/m/CZFVjOCLQt0AAAAC/anime-shy.gif
+	https://media1.tenor.com/m/aWpj2TjTjdoAAAAC/myonigirl-myonigirl-please.gif
+}
+
+clap-images {
+	https://media1.tenor.com/m/Afuf-okVuVMAAAAC/spy-family-anya.gif
+	https://media1.tenor.com/m/fR5NEqOl3sIAAAAC/azumanga-daioh-azumanga.gif
+	https://media1.tenor.com/m/8WPW-T8L3nkAAAAC/bocchi-the-rock-bocchi.gif
+	https://media1.tenor.com/m/peuqWYmwHscAAAAC/tears-of-joy-clapping.gif
+	https://media1.tenor.com/m/tyb15RWixEYAAAAC/puck-anime.gif
+	https://media1.tenor.com/m/xdj7XE8llU8AAAAC/nekopara-clap.gif
+	https://media1.tenor.com/m/Dtjxa7rizZYAAAAd/jahy-sama-anime.gif
+	https://media1.tenor.com/m/jncqY9-RbqcAAAAd/mushoku-tensei-roxy.gif
+	https://media1.tenor.com/m/2zFBIhiYcncAAAAd/rikka-rikka-chan.gif
+	https://media1.tenor.com/m/ZXkB2Tkbvv4AAAAC/hiromachi-nanami-bang-dream.gif
+	https://media1.tenor.com/m/nDMtIN6EFw0AAAAC/anime-handclap.gif
+	https://media1.tenor.com/m/hG0IC7LoATIAAAAC/anime-clop.gif
+	https://media1.tenor.com/m/Dw7KWGveRZIAAAAC/yuki-itose-a-sign-of-affection.gif
+	https://media1.tenor.com/m/Kc6xuEK5sqgAAAAC/koi-clap-koi-yoshinaga-clap.gif
+	https://media.tenor.com/EGfoMcEubWcAAAAi/clapping-hands.gif
+	https://media1.tenor.com/m/EtShnq3WAWkAAAAd/eevee-furry.gif
+}
+
+facepalm-images {
+	https://media1.tenor.com/m/XHxrUIhnA_UAAAAC/facepalm-ugh.gif
+	https://media1.tenor.com/m/OZe16n5yEP4AAAAC/vnc-vanitas.gif
+	https://media1.tenor.com/m/miK-GklQp2MAAAAC/facepalm-anime.gif
+	https://media1.tenor.com/m/X3QRuo_MqTEAAAAC/shikamaru-anime.gif
+	https://media1.tenor.com/m/ovId7dTYxykAAAAC/zukkan-the-ones-within.gif
+	https://media1.tenor.com/m/6etK6nI6pNEAAAAd/kakashi.gif
+	https://media1.tenor.com/m/ouRN_UCS-cIAAAAC/argh-anime-haikyuu-yu-nishinoya.gif
+	https://media1.tenor.com/m/K21JEBskTyQAAAAC/the-ancient-magus-bride-anime-girl.gif
+	https://media1.tenor.com/m/Qfu2ZJ3Uz1IAAAAC/facepalm-anime.gif
+	https://media1.tenor.com/m/d46692s7M8QAAAAC/mihoyo-genshin.gif
+	https://media1.tenor.com/m/zbtM2WrmrcoAAAAC/yuri-on-ice-minami.gif
+	https://media1.tenor.com/m/-VAq4zSFDxgAAAAC/mihoyo-genshin.gif
+	https://media.tenor.com/OMvOeL_ayjYAAAAi/cursed-emoji.gif
+	https://media1.tenor.com/m/Bm-UBUKX58wAAAAC/zootopia-nick.gif
+}
+
+headdesk-images {
+	https://media1.tenor.com/m/9RYGWZUJ6PgAAAAC/saki-kasukabe-anime.gif
+	https://media1.tenor.com/m/kgwpIn30m3cAAAAC/certain-magical-index-anime.gif
+	https://media1.tenor.com/m/8onaQkVl2eQAAAAC/anime-head-bang.gif
+	https://media1.tenor.com/m/GSQuiz-EwwUAAAAC/kaguya-shinomiya.gif
+	https://media1.tenor.com/m/ZQB7PmRzApYAAAAC/yosuga-no-sora-head-bang.gif
+	https://media1.tenor.com/m/9HkbKOeNS8gAAAAC/murenase-seton-gakuen-anime.gif
+	https://media1.tenor.com/m/wID626AN9pEAAAAC/anime.gif
+	https://media1.tenor.com/m/CRjWb64N6RMAAAAC/face-table-clannad.gif
+	https://media1.tenor.com/m/3bAETKgBJV4AAAAC/momokuri-anime-face-desk.gif
+	https://media1.tenor.com/m/arI7XHOggH4AAAAC/head-desk-over-it.gif
+}
+
+kill-images {
+	https://media1.tenor.com/m/cc1EzfBVr4oAAAAC/yandere-tagged.gif
+	https://media1.tenor.com/m/NbBCakbfZnkAAAAC/die-kill.gif
+	https://media1.tenor.com/m/WU4sP7m_FD8AAAAC/anime.gif
+	https://media1.tenor.com/m/b7UhYIWfmXEAAAAC/yumeko-mirai-nikki.gif
+	https://media1.tenor.com/m/vBSRMaLModkAAAAd/memes-anime-memes.gif
+	https://media1.tenor.com/m/i0PG6AP1qDgAAAAC/anime-cringe.gif
+	https://media1.tenor.com/m/-UbmVOLixPcAAAAC/killing-anime-girl.gif
+	https://media1.tenor.com/m/NMncXUo_xZ8AAAAC/mine-akame-ga-kill.gif
+	https://media1.tenor.com/m/u7pzpX6_Q5cAAAAC/anime-girl.gif
+	https://media1.tenor.com/m/0tyBXHo06U8AAAAC/akame-anime.gif
+	https://media1.tenor.com/m/yzZb9oCks4QAAAAC/goob-goobyton.gif
+	https://media1.tenor.com/m/anwD6nk3WCMAAAAC/agara-gun.gif
+	https://media1.tenor.com/m/ZLmP2pG0k_EAAAAC/anime-grab-gun.gif
+	https://media1.tenor.com/m/V0kaC9H49coAAAAd/chika-yokoyama-derestage.gif
+	https://media1.tenor.com/m/GaGflM0w5FEAAAAC/angry-minigun.gif
+	https://media1.tenor.com/m/Cbkvf8cWD70AAAAC/boy-pointing-gun-anime.gif
+}
+
+love-images {
+	https://media.tenor.com/MsrFU3vT3OAAAAAi/kawaii-girl-anime.gif
+	https://media1.tenor.com/m/-iFhBGk747MAAAAC/anime-girl.gif
+	https://media1.tenor.com/m/IgM8Kbd3omAAAAAC/in-love-anime.gif
+	https://media1.tenor.com/m/beH9ZCmNPMwAAAAC/gawr-gura-love-you.gif
+	https://media1.tenor.com/m/ra5zLAMqL-kAAAAC/foxplushy-foxy.gif
+	https://media1.tenor.com/m/DZll3gcSP04AAAAC/love.gif
+	https://media1.tenor.com/m/fthan2bhscUAAAAC/gruvia-gray.gif
+	https://media1.tenor.com/m/28r8PzKN0HMAAAAd/anime-thanks.gif
+	https://media1.tenor.com/m/sWYBHDQP_3IAAAAC/juvia-gray.gif
+	https://media1.tenor.com/m/c4UDLP-NA-cAAAAC/adorable-inlove.gif
+	https://media1.tenor.com/m/LixRebuP1vEAAAAC/anon-chihaya-bang-dream-it%E2%80%99s-mygo.gif
+	https://media1.tenor.com/m/4mhBQhgW_g8AAAAC/dusk-maiden-of-amnesia-tasogare-otome-x-amnesia.gif
+	https://media1.tenor.com/m/zIa9q6-d3TQAAAAd/anon-chihaya-bang-dream-it%E2%80%99s-mygo.gif
+	https://media1.tenor.com/m/t2jaxDDstBUAAAAd/heroines-run-the-show-heroine-tarumono.gif
+	https://media.tenor.com/qyjGI0LzTYkAAAAi/anime-i-wuve-you.gif
+	https://media1.tenor.com/m/LW6_icu0M8wAAAAC/letmeloveu-anime.gif
+	https://media1.tenor.com/m/hT2lCppV4tIAAAAC/anime-i-love-you.gif
+	https://media.tenor.com/YPfSxX2wn_MAAAAi/mythikore-anime-girl.gif
+}
+
+hide-images {
+	https://media1.tenor.com/m/oG5fnlgNih4AAAAd/bocchi-bocchi-the-rock.gif
+	https://media1.tenor.com/m/022wxhnlohgAAAAC/rozen-maiden-shinku.gif
+	https://media1.tenor.com/m/rtJFUjdtnyMAAAAC/cutie.gif
+	https://media1.tenor.com/m/0XolsUAfJuUAAAAC/yatori-hide.gif
+	https://media1.tenor.com/m/i7DOMCPXhX0AAAAd/im-out-anime.gif
+	https://media1.tenor.com/m/WMmsMzVOD2UAAAAd/anime-girl-blanket.gif
+	https://media.tenor.com/6l8Mv7a6zqAAAAAi/anime-peek.gif
+	https://media1.tenor.com/m/unil85wzwRgAAAAC/fox-jump.gif
+}
+
+laugh-images {
+	https://media1.tenor.com/m/jz9aJI4fys4AAAAC/laugh-giggle.gif
+	https://media1.tenor.com/m/An-9HfjvNkwAAAAC/kuroo-tetsurou-haikyuu.gif
+	https://media1.tenor.com/m/8nSbJK3j7EUAAAAC/laugh-anime.gif
+	https://media1.tenor.com/m/nqTDeAS9sL8AAAAC/fairy-tail-natsu.gif
+	https://media1.tenor.com/m/ETvEeDnbX7AAAAAC/my-dress-up-darling-anime-laugh.gif
+	https://media1.tenor.com/m/0CmFMbcGVKUAAAAC/spy-x-family-anime.gif
+	https://media1.tenor.com/m/8tZ9yElZ-bgAAAAC/vanitas-no-carte-vanitas.gif
+	https://media1.tenor.com/m/gzM_6h_nC_sAAAAC/nichijou-hahaha.gif
+	https://media1.tenor.com/m/K6WDm9L78mgAAAAC/rezero-rem.gif
+	https://media1.tenor.com/m/9fkrMIGeSaIAAAAC/hakase-shinonome-nichijou.gif
+	https://media1.tenor.com/m/BP9vMzwRSZwAAAAC/laughing-lol.gif
+	https://media1.tenor.com/m/8VSpMNXBBo8AAAAC/anime-girl.gif
+	https://media1.tenor.com/m/BSAEGR5ftsUAAAAC/satania-gabriel.gif
+	https://media1.tenor.com/m/m3eR2kqrb1oAAAAC/laugh.gif
+	https://media1.tenor.com/m/XQxOkKXFG7oAAAAC/satania-laugh.gif
+	https://media.tenor.com/qL1EQ2LrXfsAAAAi/lol-fenneko.gif
+	https://media1.tenor.com/m/qt8ldlOi8M0AAAAC/cat-laugh-furry-cat.gif
+	https://media1.tenor.com/m/IY71gaMMACQAAAAC/furry-laugh-furry.gif
+}
+
+lurk-images {
+	https://media1.tenor.com/m/t1KZ9IeCxpEAAAAC/junkolurk.gif
+	https://media1.tenor.com/m/Tbr9XIUrMdYAAAAC/anime-hide-anime-peek.gif
+	https://media1.tenor.com/m/zxl_TWGMNrAAAAAC/nekopara-maple.gif
+	https://media1.tenor.com/m/Dlq73DvDKdUAAAAC/rebecca-bluegarden-rebecca.gif
+	https://media.tenor.com/sKSw-rqsFxQAAAAi/foxy-foxplushy.gif
+	https://media1.tenor.com/m/DiMMAvkJWx0AAAAC/bunny-costume.gif
+	https://media1.tenor.com/m/55AetGRcdZEAAAAC/anime-peek.gif
+}
+
+bite-images {
+	https://media1.tenor.com/m/5mVQ3ffWUTgAAAAC/anime-bite.gif
+	https://media1.tenor.com/m/9qzoRZdah50AAAAC/cuddle-him.gif
+	https://media1.tenor.com/m/n0DPyBDtZHgAAAAC/anime-bite.gif
+	https://media1.tenor.com/m/qJFIZnigq9oAAAAC/holo-wise-wolf.gif
+	https://media1.tenor.com/m/ifbb8c3S4u8AAAAC/anime-bite.gif
+	https://media1.tenor.com/m/diRQGFt9T1EAAAAC/nom-kiwi-nom.gif
+	https://media.tenor.com/S-DBIteL5AEAAAAi/marigold.gif
+	https://media1.tenor.com/m/48DDFOcNQBYAAAAC/anime-bite.gif
+	https://media1.tenor.com/m/MGuHaYdPUJ4AAAAd/my-hero-academia-anime.gif
+	https://media1.tenor.com/m/1LtA9dSoAIQAAAAC/zero-no-tsukaima-bite.gif
+	https://media1.tenor.com/m/aKzAQ_cFsFEAAAAC/arms-bite.gif
+	https://media1.tenor.com/m/MNK1CrjgMcMAAAAC/megumin-konosuba.gif
+	https://media1.tenor.com/m/BwdIq2Nuu_wAAAAC/love-amagami.gif
+	https://media1.tenor.com/m/05Ria84wJBwAAAAd/kellygoblin-furry.gif
+}
+
+dance-images {
+	https://media1.tenor.com/m/GOYRQva4UeoAAAAd/anime-dance.gif
+	https://media1.tenor.com/m/KFHKlSp0xx4AAAAd/dancing-girl.gif
+	https://media1.tenor.com/m/vgNSixxe7MIAAAAC/j%C3%A1-a-comrade-v-yellowjacku-u-jukeboxu.gif
+	https://media.tenor.com/_n7-7ifNhhoAAAAi/azumanga-daioh-osaka.gif
+	https://media1.tenor.com/m/3Mc4IqoPAxAAAAAd/anime-dance.gif
+	https://media1.tenor.com/m/X6GUm0Li_aAAAAAd/friday.gif
+	https://media1.tenor.com/m/9eu9F42NQuYAAAAd/dance-anime-cool.gif
+	https://media.tenor.com/lKiKX2lNvhUAAAAi/anime-girl-dance-anime-dance.gif
+	https://media1.tenor.com/m/sby_TKx2xPkAAAAd/cute-anime-girl.gif
+	https://media1.tenor.com/m/609sc-UxciwAAAAC/dancing-oshi-no-ko.gif
+	https://media1.tenor.com/m/JfDCDNU4rp4AAAAC/koyomi-dance.gif
+	https://media1.tenor.com/m/P-8ZvqnS4AwAAAAC/dancing-cat-dancing-kitten.gif
+	https://media1.tenor.com/m/r_BW-39CL2gAAAAd/anime-anime-dance.gif
+	https://media1.tenor.com/m/xU2Gm3PWBi0AAAAd/rapidtulip647-rt6.gif
+	https://media1.tenor.com/m/6QraftC-DLIAAAAC/bocchi-the-rock-bocchi.gif
+	https://media1.tenor.com/m/M7-Ftr7tsz8AAAAC/dance.gif
+	https://media.tenor.com/b4i04RdoHzcAAAAi/anime-anime-girl.gif
+	https://media.tenor.com/Smph2uXkObIAAAAi/yor-forger-dance.gif
+	https://media.tenor.com/hYkRcm80JFwAAAAi/foxy-foxplushy.gif
+	https://media1.tenor.com/m/XvEsLSdhmF0AAAAd/alymew-alymew-dance.gif
+	https://media1.tenor.com/m/IzW-uSsJ-0UAAAAC/kromia-furrmia.gif
+	https://media1.tenor.com/m/qqiJZqHZ4-wAAAAC/protogen-dance.gif
+	https://media1.tenor.com/m/EtShnq3WAWkAAAAd/eevee-furry.gif
+}
+
+confused-images {
+	https://media1.tenor.com/m/96mR_W6LE1EAAAAC/anime-confusion-what.gif
+	https://media1.tenor.com/m/826vmR19jygAAAAC/maru-sueharu-osamake.gif
+	https://media1.tenor.com/m/3rhvPa6Md5IAAAAC/my-love-story-with-yamada-kun-at-lv999-yamada-lv999-anime.gif
+	https://media1.tenor.com/m/2tnr9JwdpTYAAAAC/confused-bakugo.gif
+	https://media1.tenor.com/m/vC90eKuOyPQAAAAC/kyo-kaneko-kyo-kaneko-hanya.gif
+	https://media1.tenor.com/m/gzjKEWGQvh0AAAAd/demon-slayer-tanjiro.gif
+	https://media.tenor.com/RwpAY9p76VsAAAAi/no-sleep.gif
+	https://media1.tenor.com/m/dx5sdhciKS8AAAAC/atsushi-nakajima-confused.gif
+	https://media1.tenor.com/m/eB07oSpaXLcAAAAC/oshi-no-ko-oshi-no-ko-memcho.gif
+	https://media1.tenor.com/m/e9FOzYO65wsAAAAd/imnota-cat-fubuki.gif
+	https://media1.tenor.com/m/Gv1cMkqev0wAAAAC/anime-confused.gif
+	https://media1.tenor.com/m/kEVg4dod34sAAAAC/anime-girl.gif
+	https://media1.tenor.com/m/K3LslQdLo04AAAAd/inugami-korone-hololive.gif
+	https://media1.tenor.com/m/y34Mm1myriQAAAAC/shamiko-confused.gif
+	https://media1.tenor.com/m/dIkrwQL-24sAAAAC/anime-confused.gif
+	https://media.tenor.com/wLp8yzvOm8AAAAAi/otter-confused.gif
+	https://media1.tenor.com/m/Thu1tLAWXkkAAAAC/fubuki-what.gif
+	https://media1.tenor.com/m/rJytTpj-FVIAAAAC/pikachu-confused.gif
+	https://media.tenor.com/3-Yzl8lDpsIAAAAi/duvida.gif
+}
+
+amazed-images {
+	https://media1.tenor.com/m/PnNcm6o-eXkAAAAC/anya-forger-anya-spy-x-family-anime.gif
+	https://media1.tenor.com/m/JfHYFUBUNUUAAAAd/osamu-dazai-brown-hair.gif
+	https://media1.tenor.com/m/lAVbMB_6BOIAAAAC/rinko-yamato-my-love-story.gif
+	https://media1.tenor.com/m/CTrKaIXYnU4AAAAC/wow-hanamaru-kindergarten.gif
+	https://media1.tenor.com/m/fofnSq042YsAAAAC/izumi-yuu-anime.gif
+	https://media.tenor.com/AD7ojHPNSY8AAAAi/anime.gif
+	https://media1.tenor.com/m/QSgu8lYhenwAAAAC/happy-anime.gif
+	https://media1.tenor.com/m/vr3swJCoznYAAAAC/miko-iino-kaguya-sama.gif
+	https://media1.tenor.com/m/M-L11gaIXYAAAAAC/suzuki-iruma-hyped.gif
+	https://media1.tenor.com/m/F0fN_ZqXDoEAAAAC/sparkle-anime.gif
+	https://media1.tenor.com/m/tZKJuFInuPQAAAAd/anime-amazed.gif
+	https://media.tenor.com/lBlTrKHiUekAAAAi/woooow-knives-chau.gif
+	https://media1.tenor.com/m/aS5mDvnf5fEAAAAC/hehe.gif
+	https://media1.tenor.com/m/18DkD8fVrdYAAAAC/wow-anime.gif
+	https://media1.tenor.com/m/xL2nMHN5CdcAAAAC/asta-chico.gif
+}
+
+happy-images {
+	https://media1.tenor.com/m/89QSIUPhqBkAAAAC/anime-girl-happy.gif
+	https://media.tenor.com/sh8xc5-HiVEAAAAi/anime-woo.gif
+	https://media1.tenor.com/m/z88st-CKXoUAAAAd/chika-yeah.gif
+	https://media1.tenor.com/m/mOBUiJkUH7YAAAAC/haru-yoshida-tonari-no-kaibutsu-kun.gif
+	https://media1.tenor.com/m/EnFI5gdE3_IAAAAC/haru-yoshida-tonari-no-kaibutsu-kun.gif
+	https://media1.tenor.com/m/MM3La2Dx0c4AAAAC/onimai-cute-anime-girl-smile-smiling.gif
+	https://media.tenor.com/Rp0U7bdOhSUAAAAi/anime.gif
+	https://media1.tenor.com/m/gW2nWVLtYu0AAAAC/sss.gif
+	https://media1.tenor.com/m/e4z1BEWHiPMAAAAC/guh.gif
+	https://media1.tenor.com/m/nBWlYPbKxzwAAAAC/anime-happy.gif
+	https://media1.tenor.com/m/myCsjxxbtXAAAAAC/anime-happy.gif
+	https://media1.tenor.com/m/jxoSU-VpuzQAAAAC/anime-anime-girl.gif
+	https://media1.tenor.com/m/lAfLMj3TnCYAAAAC/noela-fox-girl.gif
+	https://media1.tenor.com/m/cMptowMbXKgAAAAC/tail-anime.gif
+	https://media1.tenor.com/m/0HVNCVwDRIYAAAAd/beastars-legosi-tail-wag-happy.gif
+	https://media1.tenor.com/m/tUTFNxmoOmcAAAAC/holo-spice.gif
+	https://media1.tenor.com/m/cb-inJNtsd4AAAAC/anime.gif
+	https://media1.tenor.com/m/BhazLZd9A7AAAAAC/furry.gif
+	https://media1.tenor.com/m/JuX_9p8a-V8AAAAC/smile-cute.gif
+}
+
+cute-images {
+	https://media1.tenor.com/m/uBrOXPbgMnwAAAAC/wolf-girl.gif
+	https://media1.tenor.com/m/o1Q3rXQlX8kAAAAC/shy-menhera.gif
+	https://media1.tenor.com/m/qY6i6rJ2JK0AAAAC/k-on-anime.gif
+	https://media1.tenor.com/m/aSN15xonCIMAAAAd/cute-girl.gif
+	https://media1.tenor.com/m/Jkkee7dZOsgAAAAC/keion-k-on.gif
+	https://media1.tenor.com/m/5QR79Xb9guMAAAAC/cute-food.gif
+	https://media1.tenor.com/m/tPfEQC6tWyYAAAAC/wink-anime.gif
+	https://media1.tenor.com/m/42SH_3x6y_EAAAAC/hanamaru-kunikida-love-live.gif
+	https://media1.tenor.com/m/Ng6cYD1wk9YAAAAC/paw-sparkly-eyes.gif
+	https://media1.tenor.com/m/btLg_WtV330AAAAC/milly-anime.gif
+	https://media1.tenor.com/m/inBXTTv1CuMAAAAC/neko-anime.gif
+	https://media.tenor.com/spAAjhF5bXAAAAAi/crazy-cat.gif
+	https://media1.tenor.com/m/eXYvwzHVB84AAAAd/neko-ella-vtuber.gif
+	https://media1.tenor.com/m/nlDHyCA6TMgAAAAC/middle-click-discord.gif
+}
+
+lonely-images {
+	https://media1.tenor.com/m/6EQ2aeffrU0AAAAC/anime-sad.gif
+	https://media1.tenor.com/m/OWXLXoBTn-AAAAAC/anime-sad.gif
+	https://media1.tenor.com/m/1BpCPnSkP5wAAAAd/no-sleep.gif
+	https://media1.tenor.com/m/wqX-_SZGgnkAAAAC/windy-texting.gif
+	https://media1.tenor.com/m/SLeRxVa_oeYAAAAC/anime-girl.gif
+	https://media1.tenor.com/m/veuCcD2gZSUAAAAd/love-live-superstar-liella.gif
+	https://media1.tenor.com/m/viGVRum6FW8AAAAC/sad-anime.gif
+	https://media1.tenor.com/m/b-ZYq6UltQ4AAAAd/alone-lonely.gif
+}
+
+nosebleed-images {
+	https://media1.tenor.com/m/Qy4yA2TMCmUAAAAC/nosebleed.gif
+	https://media1.tenor.com/m/2pOsYUAOZ5UAAAAC/zero-no-tsukaima-saito-hiraga.gif
+	https://media1.tenor.com/m/Us2hPXlsqP8AAAAC/anime-girl.gif
+	https://media1.tenor.com/m/HAH_g7M4GI4AAAAC/nosebleed.gif
+	https://media1.tenor.com/m/l-HcFHA3KxAAAAAC/nose-bleed-anime.gif
+	https://media1.tenor.com/m/n9z4W7LNaTMAAAAC/taketo-dragon.gif
+	https://media1.tenor.com/m/LdpEdKDC1fAAAAAC/cute-fate.gif
+	https://media1.tenor.com/m/7HmwPAzNj2AAAAAC/nosebleed-thumbsup.gif
+	https://media1.tenor.com/m/JGyzMnym4QEAAAAC/nose-bleed.gif
+	https://media1.tenor.com/m/TNQfff0J6HIAAAAC/smiling-happily-with-eyes-close-while-noise-bleeding-calmly.gif
+}
+
+scared-images {
+	https://media1.tenor.com/m/s47WLGGXpykAAAAC/caca.gif
+	https://media1.tenor.com/m/ndt-tUES-qAAAAAC/my-dress-up-darling-anime-scared.gif
+	https://media1.tenor.com/m/WcxwXmB-YiIAAAAC/anime-pillow.gif
+	https://media1.tenor.com/m/azK-UXf7o5cAAAAC/anime-scream.gif
+	https://media1.tenor.com/m/wWmjeJgcFr4AAAAC/nervous-anime.gif
+	https://media1.tenor.com/m/RSH7Hx9qXO4AAAAd/grossed-out-vanitas-angry.gif
+	https://media1.tenor.com/m/oDaR_1ydefIAAAAC/scared-anime.gif
+	https://media1.tenor.com/m/RhyxCbENd6YAAAAC/umaru-chan-scared.gif
+	https://media1.tenor.com/m/iSnMzt3ZtmQAAAAd/anime-love-after-world-domination.gif
+	https://media1.tenor.com/m/uDEFkHBwM8YAAAAC/startled-cat.gif
+	https://media1.tenor.com/m/KQre3mtLTJ0AAAAC/anya-forger-worried.gif
+	https://media1.tenor.com/m/rB5M_vXtOosAAAAC/kasumi-nakasu-kasumi.gif
+}
+
+shrug-images {
+	https://media1.tenor.com/m/nlSDG33ptOoAAAAC/geto-suguru.gif
+	https://media1.tenor.com/m/F6ekeSqr9OsAAAAd/renge-shrug.gif
+	https://media1.tenor.com/m/U06tekgz-OQAAAAd/city-hunter-ryo-saeba.gif
+	https://media1.tenor.com/m/ZaxUeXcUtDkAAAAd/shrug-smug.gif
+	https://media1.tenor.com/m/K15Rh14agHAAAAAC/anime-idk.gif
+	https://media1.tenor.com/m/YdK9JDmImKUAAAAC/senyuu-anime.gif
+	https://media1.tenor.com/m/HtRb68DqNPwAAAAC/little-witch-academia-sucy.gif
+	https://media1.tenor.com/m/e1uPTuA2toIAAAAC/kana-shrug.gif
+	https://media1.tenor.com/m/ZS4tAPRPQ6EAAAAd/anime-anime-girl.gif
+	https://media1.tenor.com/m/Ii5guPVDoT0AAAAC/kyouka-shrug.gif
+}
+
+stare-images {
+	https://media1.tenor.com/m/YfqM8h3_6NEAAAAC/rin-anime.gif
+	https://media1.tenor.com/m/l2DhMTXahzAAAAAC/anime-boy.gif
+	https://media1.tenor.com/m/SEEMSDLdDugAAAAd/anya-forger.gif
+	https://media1.tenor.com/m/H8sFCwcrb6UAAAAC/bruh.gif
+	https://media1.tenor.com/m/kNjHTdNPvDgAAAAC/anime-girl-anime.gif
+	https://media1.tenor.com/m/0Zrxg3b0nMwAAAAC/anime-girl.gif
+	https://media1.tenor.com/m/Rr3iP8A98gkAAAAd/anya-forger-spying.gif
+	https://media1.tenor.com/m/1fgzvqahPHAAAAAd/bocchi-bocchi-the-rock.gif
+	https://media1.tenor.com/m/VC3EDnfJmKEAAAAd/yandere-eyes.gif
+	https://media1.tenor.com/m/zRoJ8naxOuEAAAAd/bocchi-the-rock-bocchi-the-rock-awkward.gif
+	https://media1.tenor.com/m/pollO3lb9PEAAAAC/miko-iino-doubt.gif
+	https://media1.tenor.com/m/-htQlAzVwKcAAAAC/anime-blinking.gif
+	https://media1.tenor.com/m/FK4apSCxCE4AAAAd/anime-girl.gif
+	https://media1.tenor.com/m/lBlTSbZzUCsAAAAC/anime-stare.gif
+	https://media1.tenor.com/m/4zoeTe0cDAsAAAAC/anime-look-down-benisumomo.gif
+	https://media1.tenor.com/m/tAaVbkAowkMAAAAC/kaguya-shinomiya-kaguya-sama-love-is-war.gif
+	https://media1.tenor.com/m/JBkxhB2XF_EAAAAC/jahy-sama-saurva.gif
+}
+
+wave-images {
+	https://media1.tenor.com/m/xsICn9T81LcAAAAC/roy-leops.gif
+	https://media1.tenor.com/m/ILT5-vuNzB8AAAAC/anime-anime-wave-bye.gif
+	https://media1.tenor.com/m/meiDmToBf4sAAAAC/anime-wave.gif
+	https://media1.tenor.com/m/9aXyxmnYW7oAAAAC/my-dress-up-darling-sono-bisque-doll-wa-koi-wo-suru.gif
+	https://media1.tenor.com/m/nQOSTbcTKZcAAAAC/anime-waves-hi.gif
+	https://media1.tenor.com/m/vNapCUP0d3oAAAAC/pjsk-pjsk-anime.gif
+	https://media1.tenor.com/m/1MfQk9vFF7MAAAAC/anime-bye-bye-maki.gif
+	https://media1.tenor.com/m/fraRGD3luZ4AAAAC/precure-precure-wave.gif
+	https://media1.tenor.com/m/dCTUyNt499gAAAAC/kobayashi-dragon.gif
+	https://media1.tenor.com/m/tzbVcnK8iGsAAAAC/keai-cute.gif
+	https://media1.tenor.com/m/B8PvHQ3BhuoAAAAd/kakashi-kakashi-hatake.gif
+	https://media1.tenor.com/m/Hntke7HWHhIAAAAC/wave-anime.gif
+	https://media1.tenor.com/m/H4xLf6epW-wAAAAC/anime-wave.gif
+	https://media.tenor.com/7dr3AgyEiN0AAAAi/anime-girl-wave.gif
+	https://media1.tenor.com/m/uRuAy_M2WVcAAAAC/kawaii-anemone.gif
+	https://media1.tenor.com/m/l7vlJJZpwxYAAAAC/anime-girl.gif
+	https://media1.tenor.com/m/VqGbbG0kqKAAAAAC/dakooters-anime.gif
+}
+
+explode-images {
+	https://media1.tenor.com/m/Gn5AvCtPi8EAAAAC/xowillow-ok.gif
+	https://media1.tenor.com/m/cRXA1AlzH7UAAAAC/kaf-kafu.gif
+	https://media1.tenor.com/m/uhxkzd9EGR0AAAAC/explosion-alexzander-greats.gif
+	https://media1.tenor.com/m/UvQSFy3C9hcAAAAd/awesome-anime.gif
+	https://media1.tenor.com/m/zZ6Fn_5by14AAAAC/pug-explosion.gif
+	https://media1.tenor.com/m/rymlxGXGDUkAAAAC/explosion-anime.gif
+	https://media1.tenor.com/m/JI4rpW8TurgAAAAC/anya-forger-anya-anime.gif
+	https://media1.tenor.com/m/ts6NhvDRU1AAAAAd/funny-husky.gif
+	https://media1.tenor.com/m/oziKm5H0xGsAAAAC/bunny-explode.gif
+	https://media1.tenor.com/m/yePdYYABVG0AAAAC/smlbub-bunny-explode.gif
+}

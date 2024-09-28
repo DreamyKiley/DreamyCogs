@@ -1,0 +1,19 @@
+{
+    "author": [
+        "Kiley W."
+    ],
+    "description": "Provides weather information for any given city",
+    "install_msg": "Thank you for installing the weather cog. Please make sure you set your OpenWeatherMap API key using `!setweatherapikey <your_api_key>`.",
+    "short": "Fetches weather information.",
+    "tags": [
+        "discord",
+        "weather"
+    ],
+    "requirements": [
+        "aiohttp"
+    ],
+    "min_bot_version": "3.4.0",
+    "hidden": false,
+    "disabled": false,
+    "end_user_data_statement": "Stores user-specific API keys for OpenWeatherMap."
+}

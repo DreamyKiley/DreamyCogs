@@ -1,0 +1,18 @@
+{
+    "author": [
+        "Kiley W."
+    ],
+    "description": "A fun Magic 8-Ball cog for answering user questions with random responses.",
+    "install_msg": "Thank you for installing the Magic Eight Ball cog. Ask away!",
+    "short": "Magic 8-Ball that answers your questions.",
+    "tags": [
+        "fun",
+        "magic8ball",
+        "discord"
+    ],
+    "requirements": [],
+    "min_bot_version": "3.4.0",
+    "hidden": false,
+    "disabled": false,
+    "end_user_data_statement": "This cog does not store any personal data."
+}

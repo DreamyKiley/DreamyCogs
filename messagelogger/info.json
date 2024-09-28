@@ -1,0 +1,18 @@
+{
+    "author": [
+        "Kiley W."
+    ],
+    "description": "A cog for logging messages in Discord channels.",
+    "install_msg": "Thank you for installing the Message Logger cog. Please ensure you have the necessary permissions set up.",
+    "short": "Logs messages in specified channels.",
+    "tags": [
+        "logging",
+        "messages",
+        "discord"
+    ],
+    "requirements": [],
+    "min_bot_version": "3.4.0",
+    "hidden": false,
+    "disabled": false,
+    "end_user_data_statement": "This cog stores channel IDs, role IDs, and user IDs in order to manage message logging. No personal user data beyond Discord IDs is stored."
+}

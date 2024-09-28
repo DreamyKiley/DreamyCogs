@@ -1,0 +1,20 @@
+{
+    "author": [
+        "Kiley W."
+    ],
+    "description": "A cog for translating text between languages in Discord.",
+    "install_msg": "Thank you for installing the DiscTranslator cog. No API keys are required for translation.",
+    "short": "Translates text between languages in Discord.",
+    "tags": [
+        "translation",
+        "languages",
+        "discord"
+    ],
+    "requirements": [
+        "googletrans==4.0.0-rc1"
+    ],
+    "min_bot_version": "3.4.0",
+    "hidden": false,
+    "disabled": false,
+    "end_user_data_statement": "This cog does not store any personal user data. Translations are performed using the public Google Translate API."
+}

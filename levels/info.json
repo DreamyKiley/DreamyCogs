@@ -1,0 +1,18 @@
+{
+    "author": [
+        "Kiley W."
+    ],
+    "description": "A cog for managing and tracking user levels and XP in Discord servers.",
+    "install_msg": "Thank you for installing the Leveling cog. This cog tracks user levels and XP based on message activity.",
+    "short": "Manages user levels and XP in Discord servers.",
+    "tags": [
+        "leveling",
+        "xp",
+        "discord"
+    ],
+    "requirements": [],
+    "min_bot_version": "3.4.0",
+    "hidden": false,
+    "disabled": false,
+    "end_user_data_statement": "This cog stores user leveling data for the purpose of tracking and managing levels and XP within the server."
+}

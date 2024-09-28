@@ -1,0 +1,18 @@
+{
+    "author": [
+        "Kiley W."
+    ],
+    "description": "A cog that automatically deletes specific commands after 1 second to clean up the channel.",
+    "install_msg": "Thank you for installing the CmdCleaner cog. This cog helps keep your channel clean by removing certain commands after a short delay.",
+    "short": "Automatically deletes specified commands after 1 second.",
+    "tags": [
+        "cleanup",
+        "commands",
+        "discord"
+    ],
+    "requirements": [],
+    "min_bot_version": "3.4.0",
+    "hidden": false,
+    "disabled": false,
+    "end_user_data_statement": "This cog does not store any user data. It only deletes messages that match specified commands."
+}

@@ -1,0 +1,22 @@
+{
+    "author": [
+        "Kiley W."
+    ],
+    "description": "A cog for displaying system statistics, including CPU usage, RAM utilization, disk I/O, uptime, and ping to Discord.",
+    "install_msg": "Thank you for installing the System Stats cog. This cog provides a quick overview of system performance and resource usage, including ping to Discord.",
+    "short": "Displays system statistics including CPU, RAM, disk I/O, uptime, and ping to Discord.",
+    "tags": [
+        "system",
+        "stats",
+        "performance",
+        "resource",
+        "ping"
+    ],
+    "requirements": [
+        "psutil"
+    ],
+    "min_bot_version": "3.4.0",
+    "hidden": false,
+    "disabled": false,
+    "end_user_data_statement": "This cog does not store any user data. It only provides real-time system statistics."
+}

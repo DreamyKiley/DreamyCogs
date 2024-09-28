@@ -1,0 +1,15 @@
+{
+    "author": [
+        "DreamyKiley"
+    ],
+    "install_msg": "Thanks for using DreamyCogs!\nFor more information on my cogs, go to my GitHub here: <https://github.com/DreamyKiley/DreamyCogs>",
+    "name": "DreamyCogs",
+    "short": "Cogs by DreamyKiley.",
+    "description": "A collection of cogs for Redbot created by DreamyKiley. Includes various utilities and useful features for enhancing your bot.",
+    "tags": [
+        "Utility",
+        "Enhancements",
+        "Commands",
+        "Features"
+    ]
+}

@@ -30,7 +30,10 @@ class Levels(commands.Cog):
         user_id = str(author.id)
         guild_data, last_message = await self.config.guild(guild).levels(), await self.config.guild(guild).last_message()
 
+        # Ensure user_data has a default for 'prestige'
         user_data = guild_data.get(user_id, {"level": 0, "xp": 0, "prestige": 0})
+        user_data.setdefault('prestige', 0)
+
         if current_time - last_message.get(user_id, 0) >= 10:
             user_data["xp"] += self.XP_PER_MESSAGE
             await self.process_level_up(message, author, guild_data, user_data)

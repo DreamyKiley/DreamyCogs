@@ -4,7 +4,6 @@ import time
 import asyncio
 
 class Levels(commands.Cog):
-
     LEVEL_CAP = 100
     MAX_PRESTIGE = 10
     XP_PER_MESSAGE = 10
@@ -28,39 +27,61 @@ class Levels(commands.Cog):
 
         current_time = time.time()
         user_id = str(author.id)
-        guild_data, last_message = await self.config.guild(guild).levels(), await self.config.guild(guild).last_message()
+        guild_data = await self.config.guild(guild).levels()
+        last_message = await self.config.guild(guild).last_message()
 
         # Ensure user_data has a default for 'prestige'
         user_data = guild_data.get(user_id, {"level": 0, "xp": 0, "prestige": 0})
         user_data.setdefault('prestige', 0)
 
-        if current_time - last_message.get(user_id, 0) >= 10:
-            user_data["xp"] += self.XP_PER_MESSAGE
-            await self.process_level_up(message, author, guild_data, user_data)
-            last_message[user_id] = current_time
+        # Check if the cooldown has expired
+        if current_time - last_message.get(user_id, 0) < 10:
+            return  # Ignore if within cooldown period
 
-            await self.config.guild(guild).levels.set(guild_data)
-            await self.config.guild(guild).last_message.set(last_message)
+        user_data["xp"] += self.XP_PER_MESSAGE
+        await self.process_level_up(message, author, guild_data, user_data)
+        last_message[user_id] = current_time
+
+        await self.config.guild(guild).levels.set(guild_data)
+        await self.config.guild(guild).last_message.set(last_message)
 
     async def process_level_up(self, message, author, guild_data, user_data):
+        leveled_up = False
+        prestiged = False
+        original_level = user_data["level"]
+        original_prestige = user_data["prestige"]
+
+        # Track if a level-up message has been sent
+        level_up_sent = False
+        level_up_time = 0  # To track when the last level-up message was sent
+
         while user_data["xp"] >= self.calculate_xp_for_next_level(user_data["level"]):
             if user_data["level"] >= self.LEVEL_CAP:
-                user_data["xp"] = self.calculate_xp_for_next_level(user_data["level"])
+                user_data["xp"] = 0  # Reset XP to 0 instead of leaving it negative
                 break
 
+            # Level up the user
             user_data["level"] += 1
-            user_data["xp"] -= self.calculate_xp_for_next_level(user_data["level"])
+            user_data["xp"] = 0  # Reset XP to 0 on level-up
+            leveled_up = True
 
+            # Handle Prestige
             if user_data["level"] >= 25 and user_data["prestige"] < self.MAX_PRESTIGE:
                 user_data.update({"level": 1, "xp": 0, "prestige": user_data["prestige"] + 1})
-                await message.channel.send(f"Congratulations {author.mention}! You've prestiged to **Prestige {user_data['prestige']}** and are now at Level 1!")
+                prestiged = True
+                break  # Exit the loop after prestige to avoid multiple level-ups in one cycle
 
-            if await self.config.member(author).level_up_notifications():
-                msg = await message.channel.send(f"Congratulations {author.mention}! You've leveled up to **Level {user_data['level']}**!")
-                delete_after = await self.config.guild(message.guild).delete_after()
-                if delete_after:
-                    await asyncio.sleep(delete_after)
-                    await self.safe_delete(msg)
+        # Send prestige message if applicable
+        if prestiged and user_data["prestige"] != original_prestige:
+            await message.channel.send(f"Congratulations {author.mention}! You've prestiged to **Prestige {user_data['prestige']}** and are now at Level 1!")
+
+        # Check if level-up message should be sent
+        if leveled_up and user_data["level"] != original_level:
+            # Check if a level-up message was sent recently
+            if not level_up_sent or (time.time() - level_up_time > 30):  # 30 seconds cooldown for level-up message
+                await message.channel.send(f"Congratulations {author.mention}! You've leveled up to **Level {user_data['level']}**!")
+                level_up_sent = True
+                level_up_time = time.time()  # Update the time of the last level-up message
 
     def calculate_xp_for_next_level(self, level):
         return self.LEVEL_UP_BASE_XP * (self.XP_SCALING_FACTOR ** level)

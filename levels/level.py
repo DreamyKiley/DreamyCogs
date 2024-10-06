@@ -13,7 +13,7 @@ class Levels(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         self.config = Config.get_conf(self, identifier=759480213645791683)
-        self.config.register_guild(levels={}, last_message={}, leveling_enabled=True, delete_after=None)
+        self.config.register_guild(levels={}, last_message={}, leveling_enabled=True, delete_after=None, level_up_messages_enabled=True)
         self.config.register_member(level_up_notifications=True)
 
     @commands.Cog.listener()
@@ -30,11 +30,9 @@ class Levels(commands.Cog):
         guild_data = await self.config.guild(guild).levels()
         last_message = await self.config.guild(guild).last_message()
 
-        # Ensure user_data has a default for 'prestige'
         user_data = guild_data.get(user_id, {"level": 0, "xp": 0, "prestige": 0})
         user_data.setdefault('prestige', 0)
 
-        # Check if the cooldown has expired
         if current_time - last_message.get(user_id, 0) < 10:
             return  # Ignore if within cooldown period
 
@@ -51,37 +49,28 @@ class Levels(commands.Cog):
         original_level = user_data["level"]
         original_prestige = user_data["prestige"]
 
-        # Track if a level-up message has been sent
-        level_up_sent = False
-        level_up_time = 0  # To track when the last level-up message was sent
-
         while user_data["xp"] >= self.calculate_xp_for_next_level(user_data["level"]):
             if user_data["level"] >= self.LEVEL_CAP:
-                user_data["xp"] = 0  # Reset XP to 0 instead of leaving it negative
+                user_data["xp"] = 0
                 break
 
-            # Level up the user
             user_data["level"] += 1
-            user_data["xp"] = 0  # Reset XP to 0 on level-up
+            user_data["xp"] = 0
             leveled_up = True
 
-            # Handle Prestige
             if user_data["level"] >= 25 and user_data["prestige"] < self.MAX_PRESTIGE:
                 user_data.update({"level": 1, "xp": 0, "prestige": user_data["prestige"] + 1})
                 prestiged = True
-                break  # Exit the loop after prestige to avoid multiple level-ups in one cycle
+                break
 
-        # Send prestige message if applicable
+        # Check if level-up messages are enabled
         if prestiged and user_data["prestige"] != original_prestige:
-            await message.channel.send(f"Congratulations {author.mention}! You've prestiged to **Prestige {user_data['prestige']}** and are now at Level 1!")
+            if await self.config.guild(message.guild).level_up_messages_enabled():
+                await message.channel.send(f"Congratulations {author.mention}! You've prestiged to **Prestige {user_data['prestige']}** and are now at Level 1!")
 
-        # Check if level-up message should be sent
         if leveled_up and user_data["level"] != original_level:
-            # Check if a level-up message was sent recently
-            if not level_up_sent or (time.time() - level_up_time > 30):  # 30 seconds cooldown for level-up message
+            if await self.config.guild(message.guild).level_up_messages_enabled():
                 await message.channel.send(f"Congratulations {author.mention}! You've leveled up to **Level {user_data['level']}**!")
-                level_up_sent = True
-                level_up_time = time.time()  # Update the time of the last level-up message
 
     def calculate_xp_for_next_level(self, level):
         return self.LEVEL_UP_BASE_XP * (self.XP_SCALING_FACTOR ** level)
@@ -110,28 +99,23 @@ class Levels(commands.Cog):
 
     @commands.command(name="leaderboard")
     async def leaderboard(self, ctx, page: int = 1):
-        """Display the leveling leaderboard for the server with pagination."""
         guild_data = await self.config.guild(ctx.guild).levels()
 
-        # Ensure all user data has the 'prestige' key and purge users who left
         to_remove = []
         for user_id in list(guild_data):
             user = ctx.guild.get_member(int(user_id))
             if user is None:
-                to_remove.append(user_id)  # Mark users who left for removal
+                to_remove.append(user_id)
 
-        # Remove the users who left from guild_data
         for user_id in to_remove:
             del guild_data[user_id]
 
-        # Save the updated guild data back to the config
         await self.config.guild(ctx.guild).levels.set(guild_data)
 
-        # Sort users by prestige, level, and XP, setting default values if any key is missing
         sorted_users = sorted(guild_data.items(), key=lambda item: (
-            item[1].get("prestige", 0),  # Default prestige is 0 if missing
-            item[1].get("level", 0),     # Default level is 0 if missing
-            item[1].get("xp", 0)         # Default xp is 0 if missing
+            item[1].get("prestige", 0),
+            item[1].get("level", 0),
+            item[1].get("xp", 0)
         ), reverse=True)
 
         if not sorted_users:
@@ -190,10 +174,18 @@ class Levels(commands.Cog):
         status_text = "enabled" if new_status else "disabled"
         await ctx.send(f"Leveling system has been {status_text}.")
 
+    @commands.command(name="togglelvlmsg")
+    @commands.admin()
+    async def toggle_level_up_messages(self, ctx):
+        current_status = await self.config.guild(ctx.guild).level_up_messages_enabled()
+        new_status = not current_status
+        await self.config.guild(ctx.guild).level_up_messages_enabled.set(new_status)
+        status_text = "enabled" if new_status else "disabled"
+        await ctx.send(f"Level-up messages have been {status_text}.")
+
     @commands.command(name="setlevel")
     @commands.admin()
     async def set_level(self, ctx, user: commands.MemberConverter, level: int):
-        """Manually sets a user's level."""
         if level < 0 or level > self.LEVEL_CAP:
             await ctx.send(f"Please provide a level between 0 and {self.LEVEL_CAP}.")
             return
@@ -201,79 +193,60 @@ class Levels(commands.Cog):
         guild_data = await self.config.guild(ctx.guild).levels()
         user_data = guild_data.get(str(user.id), {"level": 0, "xp": 0, "prestige": 0})
     
-        # Update user data
         user_data["level"] = level
-        user_data["xp"] = 0  # Reset XP upon level change
+        user_data["xp"] = 0
         guild_data[str(user.id)] = user_data
 
-        # Save updated guild data
         await self.config.guild(ctx.guild).levels.set(guild_data)
     
-        # Send confirmation message
         await ctx.send(f"{user.display_name}'s level has been set to **Level {level}**!")
 
     @commands.command(name="setxp")
     @commands.admin()
     async def set_xp(self, ctx, user: commands.MemberConverter, xp: int):
-        """Manually sets a user's XP."""
         if xp < 0:
             await ctx.send("XP cannot be negative.")
             return
 
         guild_data = await self.config.guild(ctx.guild).levels()
         user_data = guild_data.get(str(user.id), {"level": 0, "xp": 0, "prestige": 0})
+
         user_data["xp"] = xp
         guild_data[str(user.id)] = user_data
 
         await self.config.guild(ctx.guild).levels.set(guild_data)
+
         await ctx.send(f"{user.display_name}'s XP has been set to **{xp}**!")
-
-    @commands.command(name="resetlevel")
-    @commands.admin()
-    async def reset_level(self, ctx, user: commands.MemberConverter):
-        """Resets a user's level and XP."""
-        guild_data = await self.config.guild(ctx.guild).levels()
-        if str(user.id) in guild_data:
-            del guild_data[str(user.id)]
-
-        await self.config.guild(ctx.guild).levels.set(guild_data)
-        await ctx.send(f"{user.display_name}'s level and XP have been reset.")
-
-    @commands.command(name="levelmsg")
-    async def toggle_level_up_notifications(self, ctx):
-        """Toggles level-up notifications for the user."""
-        current_setting = await self.config.member(ctx.author).level_up_notifications()
-        await self.config.member(ctx.author).level_up_notifications.set(not current_setting)
-        new_status = "enabled" if not current_setting else "disabled"
-        await ctx.send(f"Level-up notifications have been {new_status}.")
-
-    @commands.command(name="levelmsgdel")
-    @commands.admin()
-    async def set_delete_after(self, ctx, seconds: int):
-        """Sets the number of seconds after which level-up messages are deleted."""
-        if seconds < 0:
-            await ctx.send("Seconds cannot be negative.")
-            return
-
-        await self.config.guild(ctx.guild).delete_after.set(seconds)
-        if seconds == 0:
-            await ctx.send("Messages will not be deleted after level-up.")
-        else:
-            await ctx.send(f"Level-up messages will be deleted after {seconds} seconds.")
 
     @commands.command(name="setprestige")
     @commands.admin()
     async def set_prestige(self, ctx, user: commands.MemberConverter, prestige: int):
-        """Manually sets a user's prestige."""
         if prestige < 0 or prestige > self.MAX_PRESTIGE:
-            await ctx.send(f"Please provide a prestige between 0 and {self.MAX_PRESTIGE}.")
+            await ctx.send(f"Please provide a prestige level between 0 and {self.MAX_PRESTIGE}.")
             return
 
         guild_data = await self.config.guild(ctx.guild).levels()
         user_data = guild_data.get(str(user.id), {"level": 0, "xp": 0, "prestige": 0})
+
         user_data["prestige"] = prestige
-        user_data["level"] = 1  # Reset level to 1 upon prestige change
         guild_data[str(user.id)] = user_data
 
         await self.config.guild(ctx.guild).levels.set(guild_data)
-        await ctx.send(f"{user.display_name}'s prestige has been set to **Prestige {prestige}**!")
+
+        await ctx.send(f"{user.display_name}'s prestige has been set to **{prestige}**!")
+
+    @commands.command(name="resetlevel")
+    @commands.admin()
+    async def reset_level(self, ctx, user: commands.MemberConverter):
+        guild_data = await self.config.guild(ctx.guild).levels()
+        user_data = guild_data.get(str(user.id), {"level": 0, "xp": 0, "prestige": 0})
+
+        user_data["level"] = 0  # Reset level to 0, keep XP and prestige
+        guild_data[str(user.id)] = user_data
+
+        await self.config.guild(ctx.guild).levels.set(guild_data)
+
+        await ctx.send(f"{user.display_name}'s level has been reset to **0**!")
+
+def setup(bot):
+    bot.add_cog(Levels(bot))

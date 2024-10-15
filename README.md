@@ -6,11 +6,10 @@ Welcome to my repository of Redbot cogs! Here you'll find a collection of custom
 * **[Weather](https://github.com/DreamyKiley/DreamyCogs/blob/main/weather)**: Fetch weather details for a city, temperature in Celsius and Fahrenheit.
 * **[Translate](https://github.com/DreamyKiley/DreamyCogs/blob/main/translate)**: Translates text between languages in Discord without requiring API keys.
 * **[levels](https://github.com/DreamyKiley/DreamyCogs/blob/main/levels)**: Manages and tracks user levels and XP within Discord servers
-* **~~[calculator](https://github.com/DreamyKiley/DreamyCogs/blob/main/calculator/readme.md)~~**: *Removed because I was able to run ace through it LOL*
 * **[Magic 8-Ball](https://github.com/DreamyKiley/DreamyCogs/blob/main/magicball)**: Answers all the questions you could ever have.
 * **[RNG Test](https://github.com/DreamyKiley/DreamyCogs/blob/main/rngtest)**: Roll a random number and flip a coin!
 * **[Command Cleaner](https://github.com/DreamyKiley/DreamyCogs/blob/main/cmdcleaner)**: Automatically deletes specified commands after 1 second.
 * **[Sys](https://github.com/DreamyKiley/DreamyCogs/blob/main/sys)**: Displays system statistics including CPU, RAM, disk I/O, uptime, and ping to Discord.
 
 ## Buy Me a Gift!
-If you'd like to, you can [buy me a gift!](https://throne.com/dreamykiley). Donations are completely optional and are not connected to the development or functionality of my personal projects. Your support is appreciated, but please feel no obligation.
+If you'd like to, you can [buy me a gift!](https://throne.com/dreamykiley). Gifts are completely optional and are not connected to the development or functionality of my personal projects. Your support is appreciated, but please feel no obligation.

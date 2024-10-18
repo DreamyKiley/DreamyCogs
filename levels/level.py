@@ -30,8 +30,13 @@ class Levels(commands.Cog):
         guild_data = await self.config.guild(guild).levels()
         last_message = await self.config.guild(guild).last_message()
 
+        # Initialize user data if not present
         user_data = guild_data.get(user_id, {"level": 0, "xp": 0, "prestige": 0})
-        user_data.setdefault('prestige', 0)
+        user_data.setdefault("prestige", 0)
+        
+        if user_id not in guild_data:
+            guild_data[user_id] = user_data
+            last_message[user_id] = 0
 
         if current_time - last_message.get(user_id, 0) < 10:
             return  # Ignore if within cooldown period
@@ -40,6 +45,8 @@ class Levels(commands.Cog):
         await self.process_level_up(message, author, guild_data, user_data)
         last_message[user_id] = current_time
 
+        # Save updated data
+        guild_data[user_id] = user_data
         await self.config.guild(guild).levels.set(guild_data)
         await self.config.guild(guild).last_message.set(last_message)
 
@@ -63,7 +70,7 @@ class Levels(commands.Cog):
                 prestiged = True
                 break
 
-        # Check if level-up messages are enabled
+        # Send level-up messages if enabled
         if prestiged and user_data["prestige"] != original_prestige:
             if await self.config.guild(message.guild).level_up_messages_enabled():
                 await message.channel.send(f"Congratulations {author.mention}! You've prestiged to **Prestige {user_data['prestige']}** and are now at Level 1!")
@@ -74,12 +81,6 @@ class Levels(commands.Cog):
 
     def calculate_xp_for_next_level(self, level):
         return self.LEVEL_UP_BASE_XP * (self.XP_SCALING_FACTOR ** level)
-
-    async def safe_delete(self, message):
-        try:
-            await message.delete()
-        except discord.errors.NotFound:
-            pass
 
     @commands.command(name="level")
     async def check_level(self, ctx, user: commands.MemberConverter = None):
@@ -101,6 +102,7 @@ class Levels(commands.Cog):
     async def leaderboard(self, ctx, page: int = 1):
         guild_data = await self.config.guild(ctx.guild).levels()
 
+        # Clean up data for users no longer in the server
         to_remove = []
         for user_id in list(guild_data):
             user = ctx.guild.get_member(int(user_id))
@@ -216,7 +218,7 @@ class Levels(commands.Cog):
 
         await self.config.guild(ctx.guild).levels.set(guild_data)
 
-        await ctx.send(f"{user.display_name}'s XP has been set to **{xp}**!")
+        await ctx.send(f"{user.display_name}'s XP has been set to **{xp}**.")
 
     @commands.command(name="setprestige")
     @commands.admin()

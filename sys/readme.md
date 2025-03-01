@@ -25,11 +25,6 @@ A cog for Redbot that provides real-time system statistics, including CPU and RA
 3. **Load the cog**
    ```[p]load sys```
 
-## Commands
-
-### `!sys`
-Displays the system's CPU usage, RAM usage, disk I/O, uptime, and ping to Discord. This command is available only to the bot owner.
-
 ## Example
 
 Here’s how the command works:

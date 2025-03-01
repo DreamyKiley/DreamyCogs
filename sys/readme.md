@@ -11,6 +11,8 @@ A cog for Redbot that provides real-time system statistics, including CPU and RA
 - **Ping:** Measures the bot's ping to Discord in milliseconds.
 - **Command:**
   - `!sys`: Displays the system statistics.
+  - `!sysdisk`: Displays the total disk usage across drives.
+  - `!sysrestart`: Restarts your host machine.
 
 ## Installation
 

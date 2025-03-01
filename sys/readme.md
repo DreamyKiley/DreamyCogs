@@ -27,8 +27,6 @@ A cog for Redbot that provides real-time system statistics, including CPU and RA
 
 ## Example
 
-Here’s how the command works:
-
 1. **Run the Command:**
    - Use `!sys` to get a summary of your server machine's system statistics.
 

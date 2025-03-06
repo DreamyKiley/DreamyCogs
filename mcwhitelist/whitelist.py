@@ -6,14 +6,19 @@ class Whitelist(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         self.allowed_guilds = {
-            11111111111111111111: "Role1",     # Server1 -> Allowed role: "Role1"
-            22222222222222222222: "Scions",       # Server2 -> Allowed role: "Role2"
-            33333333333333333333: "Gaming"         # Server3 -> Allowed role: "Role3"
+            1111111111111111111: "Role1",     # Server1 -> Allowed role: "Role1"
+            2222222222222222222: "Role2",        # Server2 -> Allowed role: "Role2"
+            3333333333333333333: "Role3"          # Server3 -> Allowed role: "Role3"
         }
-        self.channel_id = 44444444444444444  # Target channel, pairs with EssentialX Discord
+        self.channel_id = 1147253430113554433  # Target channel
+        self.command_enabled = True  # Default state
+        self.admin_users = {11111111111111111111, 22222222222222222, 33333333333333333}  # Allowed User-IDs
 
     @commands.command()
     async def mcadd(self, ctx, username: str):
+        if not self.command_enabled:
+            return await ctx.send("❌ The whitelist command is currently disabled.")
+
         guild_id = ctx.guild.id
         if guild_id not in self.allowed_guilds:
             return await ctx.send("This command can only be used in specific servers.")
@@ -33,6 +38,22 @@ class Whitelist(commands.Cog):
             await ctx.send(f"✅ Added `{username}` to the whitelist!")
         except discord.Forbidden:
             await ctx.send("❌ I don't have permission to send messages in the whitelist channel.")
+
+    @commands.command()
+    async def mcdisable(self, ctx):
+        if ctx.author.id not in self.admin_users:
+            return await ctx.send("❌ You do not have permission to use this command.")
+
+        self.command_enabled = False
+        await ctx.send("⚠️ The whitelist command has been **disabled**.")
+
+    @commands.command()
+    async def mcenable(self, ctx):
+        if ctx.author.id not in self.admin_users:
+            return await ctx.send("❌ You do not have permission to use this command.")
+
+        self.command_enabled = True
+        await ctx.send("✅ The whitelist command has been **enabled**.")
 
 async def setup(bot):
     await bot.add_cog(Whitelist(bot))

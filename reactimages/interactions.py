@@ -128,7 +128,7 @@ class Interactions(commands.Cog):
         title = "{nickname} dances with {target_nickname}" if user and user != ctx.author else "{nickname} is dancing"
         await self._send_image(ctx, "dance-images", title, 0xFF1490, user)
 
-    @commands.command(name="bite")
+    @commands.command(name="bite", aliases=["nom"])
     async def send_vite_image(self, ctx, user: commands.MemberConverter = None):
         title = "{nickname} bites {target_nickname}, NOM!" if user and user != ctx.author else "{nickname} bites at random, so spooky!"
         await self._send_image(ctx, "bite-images", title, 0x8F2424, user)
@@ -151,3 +151,19 @@ class Interactions(commands.Cog):
     
         title = "{nickname} highfives {target_nickname}, nice!" if user != ctx.author else "*highfives {nickname}* You're not alone :D"
         await self._send_image(ctx, "highfive-images", title, 0x09FF0, user)
+
+    @commands.command(name="bonk")
+    async def send_bonk_image(self, ctx, user: commands.MemberConverter = None):
+        if not user:
+            return await ctx.send("Please mention a user to bonk.")
+    
+        title = "*{nickname} bonks {target_nickname}* D:<" if user != ctx.author else "*bonks {nickname}* .. D-did you just bonk yourself?"
+        await self._send_image(ctx, "bonk-images", title, 0xFF4500, user)
+
+    @commands.command(name="tackle")
+    async def send_bonk_image(self, ctx, user: commands.MemberConverter = None):
+        if not user:
+            return await ctx.send("Please mention a user to tackle.")
+    
+        title = "*{nickname} tackles {target_nickname}*" if user != ctx.author else "You can't tackle yourself.. {nickname}, you can try and I can watch though"
+        await self._send_image(ctx, "tackle-images", title, 0xFF4500, user)

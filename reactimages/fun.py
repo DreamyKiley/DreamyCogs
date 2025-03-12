@@ -78,9 +78,13 @@ class Fun(commands.Cog):
 
     @commands.command(name="stare")
     async def send_stare_image(self, ctx, user: commands.MemberConverter = None):
-        title = "{nickname} stares at {target_nickname} intently" if user and user != ctx.author else "{nickname} is staring off into space"
+        title = "{nickname} stares at {target_nickname} intently" if user and user != ctx.author else "{nickname} is staring"
         await self._send_image(ctx, "stare-images", title, 0x4682B4, user)
 
     @commands.command(name="yuck")
     async def send_yuck_image(self, ctx):
         await self._send_image(ctx, "yuck-images", "*{nickname} is grossed out*", 0x6A5ACD)
+
+    @commands.command(name="flop")
+    async def send_flop_image(self, ctx):
+        await self._send_image(ctx, "flop-images", "*{nickname} flops over*", 0xF28C28)

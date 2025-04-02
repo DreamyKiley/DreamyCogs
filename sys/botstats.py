@@ -5,7 +5,7 @@ import time
 from discord import Embed
 from redbot.core import commands, Config, checks
 
-ALLOWED_USERS = {XXXXXXXXXXXXXXX, YYYYYYYYYYYYY, ZZZZZZZZZZZZ}  # Replace with Discord user IDs
+ALLOWED_USERS = {111, 222, 333}  # Replace with Discord user IDs
 
 class BotStats(commands.Cog):
     def __init__(self, bot):

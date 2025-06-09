@@ -1,14 +1,12 @@
 import asyncio
 import aiohttp
+import math
+import statistics
 import re
 from discord import Embed
 from redbot.core import commands
 from xivlodestone import LodestoneScraper
 from bs4 import BeautifulSoup
-
-# Future: Fix item level parsing that makes me angy
-# -- Job Stones/Materia do not affect/Round to the nearest lower number, 13 slots for PAL/WHM/BLM - 12 for other --
-# Dirty way to just grab char data with LodestoneScraper, and scraping HTML to grab the item level
 
 class FFXIVTools(commands.Cog):
     def __init__(self, bot):
@@ -61,42 +59,60 @@ class FFXIVTools(commands.Cog):
                 html = await resp.text()
         soup = BeautifulSoup(html, "html.parser")
 
-        # Extract job icon/portrait
         icon_tag = soup.select_one("div.character__class_icon img")
         job_icon_url = icon_tag["src"] if icon_tag else None
         portrait_img = soup.select_one("div.character__detail__image a.js__image_popup img")
         portrait_url = portrait_img["src"] if portrait_img else None
 
-        # I'm lazy and don't know how FFXIV calculates Item Levels so I just have it grabbing the highest for equipped gear.
-        # Other methods I *did* try was parsing the number from <div class="character__detail__avg">, but this is just as jank as they're not publicly visible it appears.
-        # It only took me 2 hours to figure that out when using my own char as the test dummy :)
-        item_levels = []
-        highest_ilvl = 0
-        highest_slot = "Unknown"
+        slots_map = {
+            "mainhand": 0,
+            "offhand": 1,
+            "head": 2,
+            "body": 3,
+            "hands": 4,
+            "legs": 6,
+            "feet": 7,
+            "earring": 8,
+            "necklace": 9,
+            "bracelet": 10,
+            "ring1": 11,
+            "ring2": 12,
+        }
 
-        for i in range(2, 14):  # icon-c--2 to icon-c--13
-            gear_div = soup.select_one(f".icon-c--{i}")
+        ilvls = {}
+        for slot, idx in slots_map.items():
+            gear_div = soup.select_one(f".icon-c--{idx}")
             if not gear_div:
                 continue
-            tooltip = gear_div.find_next("div", class_="db-tooltip__item__level")
-            if tooltip:
-                match = re.search(r"\d+", tooltip.text)
+            tooltip_div = gear_div.find("div", class_="db-tooltip__item__level")
+            if tooltip_div and tooltip_div.text.strip():
+                match = re.search(r"\d+", tooltip_div.text)
                 if match:
-                    ilvl = int(match.group())
-                    item_levels.append(ilvl)
-                    if ilvl > highest_ilvl:
-                        highest_ilvl = ilvl
-                        slot_name_tag = gear_div.find_next("div", class_="db-tooltip__item__category")
-                        highest_slot = slot_name_tag.text.strip() if slot_name_tag else f"Slot {i}"
+                    ilvls[slot] = int(match.group())
+                else:
+                    ilvls[slot] = 0
+            else:
+                ilvls[slot] = 0
 
-        if item_levels:
-            item_level = f"{highest_ilvl}"
+        mainhand_ilvl = ilvls.get("mainhand", 0)
+        if ilvls.get("offhand", 0) == 0:
+            ilvls["offhand"] = mainhand_ilvl
+
+        average_slots = [
+            "mainhand", "offhand", "head", "body", "hands", "legs", "feet",
+            "earring", "necklace", "bracelet", "ring1", "ring2"
+        ]
+
+        used_ilvls = [ilvls[slot] for slot in average_slots if ilvls.get(slot, 0) > 0]
+
+        if used_ilvls:
+            total_ilvl = sum(used_ilvls)
+            count = len(used_ilvls)
+            average_ilvl = total_ilvl // count
+            item_level = str(average_ilvl)
         else:
-            item_level_div = soup.select_one("div.character__detail__avg")
-            item_level = item_level_div.text.strip() if item_level_div else "Unknown"
-           # I'm tired and going to sleep. :)
+            item_level = "Unknown"
 
-        # Image
         if job_icon_url:
             embed.set_thumbnail(url=job_icon_url)
         elif portrait_url:
@@ -104,7 +120,6 @@ class FFXIVTools(commands.Cog):
         if portrait_url:
             embed.set_image(url=portrait_url)
 
-        # character
         def safe_get(attr):
             val = getattr(char, attr, None)
             return val if val else "Unknown"
@@ -112,13 +127,11 @@ class FFXIVTools(commands.Cog):
         fc = getattr(char, "free_company", None)
         fc_name = getattr(fc, "name", fc) if fc else "None"
 
-        # Fuck these finnicky ass discord embeds
         embed.add_field(name="Server", value=safe_get("world"), inline=True)
         embed.add_field(name="FC", value=fc_name, inline=True)
-        embed.add_field(name="\u200b", value="\u200b", inline=True)  # Spacer
+        embed.add_field(name="\u200b", value="\u200b", inline=True)
         embed.add_field(name="Level", value=str(safe_get("level")), inline=True)
         embed.add_field(name="iLvl", value=item_level, inline=True)
-        embed.add_field(name="\u200b", value="\u200b", inline=True)  # Spacer
-       # embed.add_field(name="Race", value=safe_get("race"), inline=True) ALL HAIL THE BNUUY RACE
+        embed.add_field(name="\u200b", value="\u200b", inline=True)
 
         await ctx.send(embed=embed)
